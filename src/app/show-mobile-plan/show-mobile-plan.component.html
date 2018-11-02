@@ -1,0 +1,16 @@
+<table class="table table-striped">
+    <tr></tr>
+    <tr></tr>
+    <tr>
+      <th>Price</th>
+      <th>Validity</th>
+      <th>Voice</th>
+      <th>Data</th>
+    </tr>
+    <tr *ngFor = 'let eachMobilePlan of mobilePlansList'>
+      <td>{{eachMobilePlan.price}}</td>
+      <td>{{eachMobilePlan.validity}}</td>
+      <td>{{eachMobilePlan.voice}}</td>
+      <td>{{eachMobilePlan.data}}</td>
+    </tr>
+  </table>
